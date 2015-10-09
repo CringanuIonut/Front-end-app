@@ -4,7 +4,7 @@ define(function(require, exports, module) {
 
 
     module.exports = Backbone.Collection.extend({
-        url:'http://localhost:8082/skaboosh/api/group'
+        url:'http://localhost:8083/service/article'
         ,model:ItemModel
     });
 });

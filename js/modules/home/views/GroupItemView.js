@@ -3,9 +3,11 @@ define(function(require, exports, module) {
     var Marionette = require('marionette');
     var ItemCollection=require('../model/ItemCollection');
 
+
     module.exports = Marionette.ItemView.extend({
         tag: 'li',
         template: '#home-group'
+
 
 
     });

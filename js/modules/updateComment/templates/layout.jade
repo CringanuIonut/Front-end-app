@@ -1,0 +1,13 @@
+#formContent.col-md-6
+   h2.titleForm
+      | Update Comment
+
+   .input-group
+      |Continut Comentariu
+      textarea#updateContent.text.form-control(placeholder!="<%- model.content %>" aria-describedby="basic-addon1")
+
+   button#saveButton.btn.btn-default
+      | Update Comment
+
+   button.ButtonDel.btn.btn-danger(data-action="bea")
+      | Delete

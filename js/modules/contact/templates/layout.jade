@@ -1,2 +1,71 @@
-span
-    |Salut!
+.col-md-10
+    #stanga.col-md-1
+        .dropdown
+            button(class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true")	 Articole
+                span.caret
+            ul.col-md-1(class="dropdown-menu" aria-labelledby="dropdownMenu1")
+                li
+                    a(href='#show-article/1')	Vezi primul articol
+
+                li
+                    a(href='#show-article/2')	Vezi articolul 2
+
+                li
+                    a(href='#show-article/3')	Vezi articolul 3
+        .dropdown
+            button(class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true")	Comentarii
+                span.caret
+            ul(class="dropdown-menu" aria-labelledby="dropdownMenu1")
+                li
+                    a(href='#show-article/1/comment/')	For 1st article
+                li
+                    a(href='#show-article/2/comment/')	For 2nd article
+                li
+                    a(href='#show-article/3/comment/')	For 3rd article
+        .dropdown
+            button(class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true") About
+                span.caret
+            ul(class="dropdown-menu" aria-labelledby="dropdownMenu1")
+                li	Subarticol1
+                li 	Subarticol2
+                li	Subarticol3
+    .col-md-11
+        .slide-banner
+            img(src="./banner/banner2.jpg")
+.continut-articol.col-md-10
+    p
+        h2    Pagina Contact
+
+    #form.form-contact
+        form
+            table
+                tr
+                    td
+                        b    Nume:
+                    td
+                        input(type="text" name="nume" maxlength="50" size="30" placeholder="Nume")
+                tr
+                    td
+                        b Prenume:
+                    td
+                        input(type="text" name="prenume" maxlength="50" size="30" placeholder="Prenume")
+                tr
+                    td
+                        b  E-mail:
+                    td
+                        input(type="text" name="E-mail" maxlength="50" size="30" placeholder="E-mail")
+                tr
+                    td
+                        b   Mesaj:
+                    td
+                        textarea(name="mesaj" maxlength="1000" cols="31" rows="6")
+.col-md-2
+    #newsbar
+        p
+            h2 News
+        ul
+            li Lorem Ipsum este pur si simplu o macheta pentru text a industriei tipografice. Lorem Ipsum a fost macheta standard a industriei inca din secolul al XVI-lea, cand un tipograf anonim a luat o planseta de litere si le-a amestecat pentru a crea o carte demonstrativa pentru literele respective. Nu doar ca a supravietuit timp de cinci secole, dar si a facut saltul in tipografia electronica practic neschimbata. A fost popularizata in anii '60 odata cu iesirea colilor Letraset care contineau pasaje Lorem Ipsum, iar mai recent, prin programele de publicare pentru calculator, ca Aldus PageMaker care includeau versiuni de Lorem Ipsum
+            li    E un fapt bine stabilit ca cititorul va fi sustras de continutul citibil al unei pagini atunci cand se uita la asezarea in pagina.
+#footer.col-md-12
+    p
+        h2    @Designed by Ionut Cringanu

@@ -1,6 +1,13 @@
 <%- model.id%>
 br
-<%- model.name%>
+<%- model.title%>
 br
-<%- model.startDate%>
+<%- model.description%>
+br
+<%- model.comments%>
+a(href!='#update-article/1<%- model.id %>')
+    | Edit
+
+
 hr
+
